@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>com.hobozoo</groupId>
+        <artifactId>sagittarius</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <description>
+        向外暴漏的http接口层
+        依赖service层
+        注意：
+        alibaba手册上有一个开放接口层，controller层我们常用的就是暴漏http接口（rest）
+        但是web层的意义在于：封装service，对外暴漏RPC，REST，SOCKET接口。
+        还有网关安全控制，流量控制等职责
+
+        那可以这么玩：定义sagittarius-web，sagittarius-rpc，sagittarius-controller
+        sagittarius-web依赖sagittarius-rpc和sagittarius-controller
+        sagittarius-rpc和sagittarius-controller依赖sagittarius-service
+
+        不太好，rpc的接入方式是不一样的，rpc的包要提供给其他系统的
+    </description>
+
+    <artifactId>sagittarius-controller</artifactId>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>sagittarius-service</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>sagittarius-entity</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger-ui</artifactId>
+        </dependency>
+
+    </dependencies>
+</project>

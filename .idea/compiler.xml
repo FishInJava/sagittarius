@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="sagittarius-web" />
+        <module name="sagittarius-mq" />
+        <module name="sagittarius-entity" />
+        <module name="sagittarius-dao" />
+        <module name="sagittarius-controller" />
+        <module name="sagittarius-rpc" />
+        <module name="sagittarius-manager" />
+        <module name="sagittarius-service" />
+        <module name="sagittarius-quartz" />
+        <module name="sagittarius-interface" />
+        <module name="sagittarius-common" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="sagittarius" target="11" />
+      <module name="sagittarius-common" target="11" />
+      <module name="sagittarius-controller" target="11" />
+      <module name="sagittarius-dao" target="11" />
+      <module name="sagittarius-entity" target="11" />
+      <module name="sagittarius-interface" target="11" />
+      <module name="sagittarius-manager" target="11" />
+      <module name="sagittarius-mq" target="11" />
+      <module name="sagittarius-quartz" target="11" />
+      <module name="sagittarius-rpc" target="11" />
+      <module name="sagittarius-service" target="11" />
+      <module name="sagittarius-web" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="sagittarius-common" options="-parameters" />
+      <module name="sagittarius-controller" options="-parameters" />
+      <module name="sagittarius-dao" options="-parameters" />
+      <module name="sagittarius-entity" options="-parameters" />
+      <module name="sagittarius-interface" options="-parameters" />
+      <module name="sagittarius-manager" options="-parameters" />
+      <module name="sagittarius-mq" options="-parameters" />
+      <module name="sagittarius-quartz" options="-parameters" />
+      <module name="sagittarius-rpc" options="-parameters" />
+      <module name="sagittarius-service" options="-parameters" />
+      <module name="sagittarius-web" options="-parameters" />
+    </option>
+  </component>
+</project>

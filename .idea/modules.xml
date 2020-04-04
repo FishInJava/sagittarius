@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/sagittarius.iml" filepath="$PROJECT_DIR$/.idea/sagittarius.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sagittarius-common/sagittarius-common.iml" filepath="$PROJECT_DIR$/sagittarius-common/sagittarius-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sagittarius-controller/sagittarius-controller.iml" filepath="$PROJECT_DIR$/sagittarius-controller/sagittarius-controller.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sagittarius-dao/sagittarius-dao.iml" filepath="$PROJECT_DIR$/sagittarius-dao/sagittarius-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sagittarius-entity/sagittarius-entity.iml" filepath="$PROJECT_DIR$/sagittarius-entity/sagittarius-entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sagittarius-interface/sagittarius-interface.iml" filepath="$PROJECT_DIR$/sagittarius-interface/sagittarius-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sagittarius-manager/sagittarius-manager.iml" filepath="$PROJECT_DIR$/sagittarius-manager/sagittarius-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sagittarius-mq/sagittarius-mq.iml" filepath="$PROJECT_DIR$/sagittarius-mq/sagittarius-mq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sagittarius-quartz/sagittarius-quartz.iml" filepath="$PROJECT_DIR$/sagittarius-quartz/sagittarius-quartz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sagittarius-rpc/sagittarius-rpc.iml" filepath="$PROJECT_DIR$/sagittarius-rpc/sagittarius-rpc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sagittarius-service/sagittarius-service.iml" filepath="$PROJECT_DIR$/sagittarius-service/sagittarius-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sagittarius-web/sagittarius-web.iml" filepath="$PROJECT_DIR$/sagittarius-web/sagittarius-web.iml" />
+    </modules>
+  </component>
+</project>

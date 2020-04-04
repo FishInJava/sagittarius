@@ -1,0 +1,23 @@
+{
+  "query": {
+    "nested": {
+      "path": "performer",
+      "query": {
+        "bool": {
+          "must": [
+            {
+              "match": {
+                "performer.first": "John"
+              }
+            },
+            {
+              "match": {
+                "performer.last": "Snow"
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

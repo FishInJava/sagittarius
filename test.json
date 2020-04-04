@@ -1,0 +1,42 @@
+{
+  "customerInfo":{
+    "companyInfo": [
+      {
+        "companyId": "c123",
+        "companyName": "chbz"
+      },{
+        "companyId": "c456",
+        "companyName": "chahaha"
+      }
+    ],
+    "personInfo": [
+      {
+        "personId": "p123",
+        "personName": "phbz"
+      },{
+        "personId": "p456",
+        "personName": "phahaha"
+      }
+    ]
+  },
+  "applyInfo": {
+    "Aapply": [
+      {
+        "AapplyId": "A123",
+        "AapplyName": "Ahbz"
+      },{
+        "AapplyId": "A456",
+        "AapplyName": "Ahahaha"
+      }
+    ],
+    "Bapply": [
+      {
+        "BapplyId": "B123",
+        "BapplyName": "Bhbz"
+      },{
+        "BapplyId": "B456",
+        "BapplyName": "Bhahaha"
+      }
+    ]
+  }
+}

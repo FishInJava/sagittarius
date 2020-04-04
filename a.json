@@ -1,0 +1,24 @@
+{
+  "book": {
+
+    "author": {
+      "name": {//如果name中只允许有
+        "firstName": "Fyodor",
+        "lastName": "Dostoevsky"
+      }
+    },
+    "isbn": "123456789",
+    "englishTitle": "Crime and Punishment",
+    "year": 1886,
+    "characters": [
+      {
+        "name": "Raskolnikov"
+      },
+      {
+        "name": "Sofia"
+      }
+    ],
+    "copies": 0
+
+  }
+}
