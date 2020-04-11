@@ -93,14 +93,16 @@
             </dependency>
 
             <dependency>
-<!--                跟我的理解不太一样啊，后面不是已经声明版本了吗
-                    看下我们项目
+<!--
+                    虽然parent中有但是还是要声明版本，
+                    这就是dependencyManagement的用法
+                    但是后面依赖的模块就不需要声明版本了，好处是所有版本都控制
+                    在parent中，如果有变更，不需要去各个模块中找
 -->
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-web</artifactId>
                 <version>2.3.0.M3</version>
             </dependency>
-
 
             <dependency>
                 <groupId>io.springfox</groupId>
@@ -114,11 +116,44 @@
                 <version>2.9.2</version>
             </dependency>
 
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-aop</artifactId>
+                <version>2.3.0.M4</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>fastjson</artifactId>
+                <version>1.2.68</version>
+            </dependency>
+
+
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>8.0.18</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.mybatis.spring.boot</groupId>
+                <artifactId>mybatis-spring-boot-starter</artifactId>
+                <version>2.1.2</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>fastjson</artifactId>
+                <version>1.2.68</version>
+            </dependency>
+
         </dependencies>
 
     </dependencyManagement>
     <dependencies>
-        <!--        版本已经在后面的依赖中有了，这里声明下要使用即可，后面其他依赖同理-->
+
+
+        <!--  版本已经在后面的依赖中有了，这里声明下要使用即可，后面其他依赖同理-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>

@@ -24,11 +24,16 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 
-### Example user template template
-### Example user template
-
-# IntelliJ project files
-.idea
-*.iml
-out
-gen
+/sagittarius-common/target/
+/.idea/
+/sagittarius-controller/target/
+/sagittarius-dao/target/
+/sagittarius-interface/target/
+/sagittarius-manager/target/
+/sagittarius-mq/target/
+/sagittarius-quartz/target/
+/sagittarius-rpc/target/
+/sagittarius-service/target/
+/sagittarius-web/target/
+/.idea/libraries/
+/sagittarius-entity/target/

@@ -8,13 +8,41 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
+    <artifactId>sagittarius-dao</artifactId>
     <description>
         持久层
         异常处理原则：不需要打印，直接扔，在servcie或者management层catch并打印
         这一层接收DO（Data Object）对象，与数据库保持一致，或者是多个数据库字段的组合。
     </description>
 
-    <artifactId>sagittarius-dao</artifactId>
+    <dependencies>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.mybatis.spring.boot</groupId>
+            <artifactId>mybatis-spring-boot-starter</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>commons-dbcp</groupId>
+            <artifactId>commons-dbcp</artifactId>
+            <version>1.4</version>
+        </dependency>
+        <dependency>
+            <groupId>com.hobozoo</groupId>
+            <artifactId>sagittarius-entity</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.hobozoo</groupId>
+            <artifactId>sagittarius-entity</artifactId>
+        </dependency>
+
+    </dependencies>
+
+
 
 
 </project>
