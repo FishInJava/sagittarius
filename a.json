@@ -1,24 +1,19 @@
 {
-  "book": {
-
-    "author": {
-      "name": {//如果name中只允许有
-        "firstName": "Fyodor",
-        "lastName": "Dostoevsky"
-      }
-    },
-    "isbn": "123456789",
-    "englishTitle": "Crime and Punishment",
-    "year": 1886,
-    "characters": [
-      {
-        "name": "Raskolnikov"
-      },
-      {
-        "name": "Sofia"
-      }
-    ],
-    "copies": 0
-
-  }
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match": {
+            "managerID": "hebaozhong001"
+          }
+        }
+      ],
+      "must_not": [],
+      "should": []
+    }
+  },
+  "from": 0,
+  "size": 10,
+  "sort": [],
+  "aggs": {}
 }

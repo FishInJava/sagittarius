@@ -123,13 +123,6 @@
             </dependency>
 
             <dependency>
-                <groupId>com.alibaba</groupId>
-                <artifactId>fastjson</artifactId>
-                <version>1.2.68</version>
-            </dependency>
-
-
-            <dependency>
                 <groupId>mysql</groupId>
                 <artifactId>mysql-connector-java</artifactId>
                 <version>8.0.18</version>
@@ -147,11 +140,11 @@
                 <version>1.2.68</version>
             </dependency>
 
+
         </dependencies>
 
     </dependencyManagement>
     <dependencies>
-
 
         <!--  版本已经在后面的依赖中有了，这里声明下要使用即可，后面其他依赖同理-->
         <dependency>
@@ -185,7 +178,7 @@
             </plugin>
         </plugins>
     </build>
-
+<!--    配置仓库中央仓库，理解中央仓库和镜像的区别  -->
     <repositories>
         <repository>
             <id>spring-milestones</id>
