@@ -1,16 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="99184d5e-2743-44d8-b74d-4e41461e3748" name="Default Changelist" comment="first commit">
+    <list default="true" id="99184d5e-2743-44d8-b74d-4e41461e3748" name="Default Changelist" comment="增加对spring-boot-打包插件的理解">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/a.json" beforeDir="false" afterPath="$PROJECT_DIR$/a.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sagittarius-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sagittarius-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sagittarius-controller/src/main/java/com/hobozoo/sagittarius/controller/DemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sagittarius-controller/src/main/java/com/hobozoo/sagittarius/controller/DemoController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sagittarius-controller/target/classes/com/hobozoo/sagittarius/controller/DemoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/sagittarius-controller/target/classes/com/hobozoo/sagittarius/controller/DemoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sagittarius-dao/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sagittarius-dao/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sagittarius-entity/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sagittarius-entity/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sagittarius-entity/target/classes/com/hobozoo/sagittarius/entity/demo/Cat$CatBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/sagittarius-entity/target/classes/com/hobozoo/sagittarius/entity/demo/Cat$CatBuilder.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sagittarius-entity/target/classes/com/hobozoo/sagittarius/entity/demo/Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/sagittarius-entity/target/classes/com/hobozoo/sagittarius/entity/demo/Cat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sagittarius-interface/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sagittarius-interface/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sagittarius-manager/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sagittarius-manager/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sagittarius-mq/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sagittarius-mq/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sagittarius-quartz/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sagittarius-quartz/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sagittarius-rpc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sagittarius-rpc/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sagittarius-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sagittarius-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sagittarius-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sagittarius-web/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +149,7 @@
       <workItem from="1586586404913" duration="10803000" />
       <workItem from="1587159838503" duration="113000" />
       <workItem from="1587160069037" duration="324000" />
-      <workItem from="1587160428640" duration="6616000" />
+      <workItem from="1587160428640" duration="7221000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1585968077499</created>
@@ -143,15 +165,34 @@
       <option name="project" value="LOCAL" />
       <updated>1586604806210</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="增加对spring-boot-打包插件的理解">
+      <created>1587195420511</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1587195420511</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="增加对spring-boot-打包插件的理解" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加对spring-boot-打包插件的理解" />
   </component>
   <component name="WindowStateProjectService">
     <state x="324" y="96" key="#Project_Structure" timestamp="1586477405077">
@@ -162,10 +203,10 @@
       <screen x="0" y="0" width="1463" height="874" />
     </state>
     <state x="412" y="172" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1463.874@0.0.1463.874" timestamp="1587159876382" />
-    <state x="304" y="33" key="CommitChangelistDialog2" timestamp="1586604803370">
+    <state x="184" y="9" key="CommitChangelistDialog2" timestamp="1587195383647">
       <screen x="0" y="0" width="1463" height="874" />
     </state>
-    <state x="304" y="33" key="CommitChangelistDialog2/0.0.1463.874@0.0.1463.874" timestamp="1586604803370" />
+    <state x="184" y="9" key="CommitChangelistDialog2/0.0.1463.874@0.0.1463.874" timestamp="1587195383647" />
     <state width="434" height="466" key="DebuggerActiveHint" timestamp="1586659296876">
       <screen x="0" y="0" width="1463" height="874" />
     </state>
@@ -174,22 +215,22 @@
       <screen x="0" y="0" width="1463" height="874" />
     </state>
     <state x="512" y="178" key="FileChooserDialogImpl/0.0.1463.874@0.0.1463.874" timestamp="1587161676449" />
-    <state width="1420" height="351" key="GridCell.Tab.0.bottom" timestamp="1587195036414">
+    <state width="1420" height="351" key="GridCell.Tab.0.bottom" timestamp="1587195870993">
       <screen x="0" y="0" width="1463" height="874" />
     </state>
-    <state width="1420" height="351" key="GridCell.Tab.0.bottom/0.0.1463.874@0.0.1463.874" timestamp="1587195036414" />
-    <state width="1420" height="351" key="GridCell.Tab.0.center" timestamp="1587195036414">
+    <state width="1420" height="351" key="GridCell.Tab.0.bottom/0.0.1463.874@0.0.1463.874" timestamp="1587195870993" />
+    <state width="1420" height="351" key="GridCell.Tab.0.center" timestamp="1587195870993">
       <screen x="0" y="0" width="1463" height="874" />
     </state>
-    <state width="1420" height="351" key="GridCell.Tab.0.center/0.0.1463.874@0.0.1463.874" timestamp="1587195036414" />
-    <state width="1420" height="351" key="GridCell.Tab.0.left" timestamp="1587195036414">
+    <state width="1420" height="351" key="GridCell.Tab.0.center/0.0.1463.874@0.0.1463.874" timestamp="1587195870993" />
+    <state width="1420" height="351" key="GridCell.Tab.0.left" timestamp="1587195870993">
       <screen x="0" y="0" width="1463" height="874" />
     </state>
-    <state width="1420" height="351" key="GridCell.Tab.0.left/0.0.1463.874@0.0.1463.874" timestamp="1587195036414" />
-    <state width="1420" height="351" key="GridCell.Tab.0.right" timestamp="1587195036414">
+    <state width="1420" height="351" key="GridCell.Tab.0.left/0.0.1463.874@0.0.1463.874" timestamp="1587195870993" />
+    <state width="1420" height="351" key="GridCell.Tab.0.right" timestamp="1587195870993">
       <screen x="0" y="0" width="1463" height="874" />
     </state>
-    <state width="1420" height="351" key="GridCell.Tab.0.right/0.0.1463.874@0.0.1463.874" timestamp="1587195036414" />
+    <state width="1420" height="351" key="GridCell.Tab.0.right/0.0.1463.874@0.0.1463.874" timestamp="1587195870993" />
     <state width="1420" height="249" key="GridCell.Tab.1.bottom" timestamp="1586677356790">
       <screen x="0" y="0" width="1463" height="874" />
     </state>
@@ -230,18 +271,18 @@
       <screen x="0" y="0" width="1463" height="874" />
     </state>
     <state x="250" y="24" key="SettingsEditor/0.0.1463.874@0.0.1463.874" timestamp="1587193401841" />
-    <state x="324" y="170" key="Vcs.Push.Dialog.v2" timestamp="1586657222072">
+    <state x="324" y="170" key="Vcs.Push.Dialog.v2" timestamp="1587195423357">
       <screen x="0" y="0" width="1463" height="874" />
     </state>
-    <state x="324" y="170" key="Vcs.Push.Dialog.v2/0.0.1463.874@0.0.1463.874" timestamp="1586657222072" />
+    <state x="324" y="170" key="Vcs.Push.Dialog.v2/0.0.1463.874@0.0.1463.874" timestamp="1587195423357" />
     <state x="527" y="354" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585968181204">
       <screen x="0" y="0" width="1463" height="874" />
     </state>
     <state x="527" y="354" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1463.874@0.0.1463.874" timestamp="1585968181204" />
-    <state x="410" y="170" width="642" height="534" key="find.popup" timestamp="1586681208255">
+    <state x="410" y="170" width="642" height="534" key="find.popup" timestamp="1587195623079">
       <screen x="0" y="0" width="1463" height="874" />
     </state>
-    <state x="410" y="170" width="642" height="534" key="find.popup/0.0.1463.874@0.0.1463.874" timestamp="1586681208255" />
+    <state x="410" y="170" width="642" height="534" key="find.popup/0.0.1463.874@0.0.1463.874" timestamp="1587195623079" />
     <state x="203" y="185" key="new project wizard" timestamp="1585961701734">
       <screen x="0" y="0" width="1463" height="874" />
     </state>
