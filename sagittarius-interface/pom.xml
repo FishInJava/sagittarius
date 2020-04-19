@@ -10,16 +10,6 @@
     <modelVersion>4.0.0</modelVersion>
     <description>第三方接口层</description>
     <artifactId>sagittarius-interface</artifactId>
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-                <configuration>
-                    <skip>true</skip>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
+
 
 </project>

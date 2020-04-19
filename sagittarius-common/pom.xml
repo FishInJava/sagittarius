@@ -16,24 +16,12 @@
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
         </dependency>
-    </dependencies>
 
-    <!--
-    common项目应该能被打成一个jar
-    spring-boot-maven-plugin这个插件，是spring-boot的，打成的jar需要
-    有@SpringBootApplication的Main，使用java -jar jarName.jar 可以直接执行
-    这里排除该插件就可以打包了
-     -->
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-                <configuration>
-                    <skip>true</skip>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+
+    </dependencies>
 
 </project>

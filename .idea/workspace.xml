@@ -20,7 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99184d5e-2743-44d8-b74d-4e41461e3748" name="Default Changelist" comment="增加对spring-boot-打包插件的理解">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sagittarius-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sagittarius-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sagittarius-controller/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sagittarius-controller/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sagittarius-controller/target/classes/com/hobozoo/sagittarius/controller/DemoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/sagittarius-controller/target/classes/com/hobozoo/sagittarius/controller/DemoController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sagittarius-dao/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sagittarius-dao/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sagittarius-entity/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sagittarius-entity/pom.xml" afterDir="false" />
@@ -91,6 +95,7 @@
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn dependency:list" />
+      <command value="mvn dependency:tree" />
     </option>
   </component>
   <component name="RunManager" selected="Application.DemoController">
@@ -149,7 +154,7 @@
       <workItem from="1586586404913" duration="10803000" />
       <workItem from="1587159838503" duration="113000" />
       <workItem from="1587160069037" duration="324000" />
-      <workItem from="1587160428640" duration="7221000" />
+      <workItem from="1587160428640" duration="10268000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1585968077499</created>
@@ -172,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587195420511</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="增加对spring-boot-打包插件的理解">
+      <created>1587196013991</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1587196013991</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,22 +227,22 @@
       <screen x="0" y="0" width="1463" height="874" />
     </state>
     <state x="512" y="178" key="FileChooserDialogImpl/0.0.1463.874@0.0.1463.874" timestamp="1587161676449" />
-    <state width="1420" height="351" key="GridCell.Tab.0.bottom" timestamp="1587195870993">
+    <state width="1420" height="351" key="GridCell.Tab.0.bottom" timestamp="1587313608942">
       <screen x="0" y="0" width="1463" height="874" />
     </state>
-    <state width="1420" height="351" key="GridCell.Tab.0.bottom/0.0.1463.874@0.0.1463.874" timestamp="1587195870993" />
-    <state width="1420" height="351" key="GridCell.Tab.0.center" timestamp="1587195870993">
+    <state width="1420" height="351" key="GridCell.Tab.0.bottom/0.0.1463.874@0.0.1463.874" timestamp="1587313608942" />
+    <state width="1420" height="351" key="GridCell.Tab.0.center" timestamp="1587313608942">
       <screen x="0" y="0" width="1463" height="874" />
     </state>
-    <state width="1420" height="351" key="GridCell.Tab.0.center/0.0.1463.874@0.0.1463.874" timestamp="1587195870993" />
-    <state width="1420" height="351" key="GridCell.Tab.0.left" timestamp="1587195870993">
+    <state width="1420" height="351" key="GridCell.Tab.0.center/0.0.1463.874@0.0.1463.874" timestamp="1587313608942" />
+    <state width="1420" height="351" key="GridCell.Tab.0.left" timestamp="1587313608942">
       <screen x="0" y="0" width="1463" height="874" />
     </state>
-    <state width="1420" height="351" key="GridCell.Tab.0.left/0.0.1463.874@0.0.1463.874" timestamp="1587195870993" />
-    <state width="1420" height="351" key="GridCell.Tab.0.right" timestamp="1587195870993">
+    <state width="1420" height="351" key="GridCell.Tab.0.left/0.0.1463.874@0.0.1463.874" timestamp="1587313608942" />
+    <state width="1420" height="351" key="GridCell.Tab.0.right" timestamp="1587313608942">
       <screen x="0" y="0" width="1463" height="874" />
     </state>
-    <state width="1420" height="351" key="GridCell.Tab.0.right/0.0.1463.874@0.0.1463.874" timestamp="1587195870993" />
+    <state width="1420" height="351" key="GridCell.Tab.0.right/0.0.1463.874@0.0.1463.874" timestamp="1587313608942" />
     <state width="1420" height="249" key="GridCell.Tab.1.bottom" timestamp="1586677356790">
       <screen x="0" y="0" width="1463" height="874" />
     </state>
@@ -271,26 +283,26 @@
       <screen x="0" y="0" width="1463" height="874" />
     </state>
     <state x="250" y="24" key="SettingsEditor/0.0.1463.874@0.0.1463.874" timestamp="1587193401841" />
-    <state x="324" y="170" key="Vcs.Push.Dialog.v2" timestamp="1587195423357">
+    <state x="324" y="170" key="Vcs.Push.Dialog.v2" timestamp="1587196023867">
       <screen x="0" y="0" width="1463" height="874" />
     </state>
-    <state x="324" y="170" key="Vcs.Push.Dialog.v2/0.0.1463.874@0.0.1463.874" timestamp="1587195423357" />
-    <state x="527" y="354" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585968181204">
+    <state x="324" y="170" key="Vcs.Push.Dialog.v2/0.0.1463.874@0.0.1463.874" timestamp="1587196023867" />
+    <state x="527" y="354" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587197000691">
       <screen x="0" y="0" width="1463" height="874" />
     </state>
-    <state x="527" y="354" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1463.874@0.0.1463.874" timestamp="1585968181204" />
-    <state x="410" y="170" width="642" height="534" key="find.popup" timestamp="1587195623079">
+    <state x="527" y="354" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1463.874@0.0.1463.874" timestamp="1587197000691" />
+    <state x="410" y="170" width="642" height="534" key="find.popup" timestamp="1587313011888">
       <screen x="0" y="0" width="1463" height="874" />
     </state>
-    <state x="410" y="170" width="642" height="534" key="find.popup/0.0.1463.874@0.0.1463.874" timestamp="1587195623079" />
+    <state x="410" y="170" width="642" height="534" key="find.popup/0.0.1463.874@0.0.1463.874" timestamp="1587313011888" />
     <state x="203" y="185" key="new project wizard" timestamp="1585961701734">
       <screen x="0" y="0" width="1463" height="874" />
     </state>
     <state x="203" y="185" key="new project wizard/0.0.1463.874@0.0.1463.874" timestamp="1585961701734" />
-    <state x="389" y="199" width="672" height="677" key="run.anything.popup" timestamp="1587193681031">
+    <state x="389" y="199" width="672" height="677" key="run.anything.popup" timestamp="1587196178572">
       <screen x="0" y="0" width="1463" height="874" />
     </state>
-    <state x="389" y="199" width="672" height="677" key="run.anything.popup/0.0.1463.874@0.0.1463.874" timestamp="1587193681031" />
+    <state x="389" y="199" width="672" height="677" key="run.anything.popup/0.0.1463.874@0.0.1463.874" timestamp="1587196178572" />
     <state x="394" y="184" width="672" height="678" key="search.everywhere.popup" timestamp="1585754304168">
       <screen x="0" y="0" width="1463" height="874" />
     </state>
