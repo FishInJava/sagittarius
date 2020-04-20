@@ -2,16 +2,26 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/sagittarius-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sagittarius-common/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sagittarius-controller/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sagittarius-controller/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sagittarius-dao/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sagittarius-dao/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sagittarius-entity/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sagittarius-entity/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sagittarius-interface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sagittarius-interface/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sagittarius-manager/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sagittarius-manager/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sagittarius-mq/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sagittarius-mq/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sagittarius-quartz/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sagittarius-quartz/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sagittarius-rpc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sagittarius-rpc/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sagittarius-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sagittarius-service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sagittarius-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sagittarius-web/src/main/resources" charset="UTF-8" />
   </component>
 </project>

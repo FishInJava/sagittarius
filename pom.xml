@@ -3,15 +3,16 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <!--这个parent帮我们控制版本，需要什么功能直接依赖就好，不用引入版本-->
+
     <description>
-        A依赖B，B就是主动方，规则是B说的算，如用什么对象，对象如何命名
+
     </description>
     <groupId>com.hobozoo</groupId>
     <artifactId>sagittarius</artifactId>
     <name>parent</name>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+
     <modules>
         <module>sagittarius-controller</module>
         <module>sagittarius-mq</module>
@@ -34,9 +35,26 @@
         <dependencies>
 
             <dependency>
+                <groupId>com.github.xiaoymin</groupId>
+                <artifactId>knife4j-spring-boot-starter</artifactId>
+                <version>2.0.2</version>
+            </dependency>
+
+            <dependency>
                 <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-starter-parent</artifactId>
-                <version>2.3.0.M3</version>
+                <artifactId>spring-boot-dependencies</artifactId>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-aop</artifactId>
+                <version>2.2.2.RELEASE</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-web</artifactId>
+                <version>2.2.2.RELEASE</version>
             </dependency>
 
             <dependency>
@@ -94,36 +112,6 @@
             </dependency>
 
             <dependency>
-<!--
-                    虽然parent中有但是还是要声明版本，
-                    这就是dependencyManagement的用法
-                    但是后面依赖的模块就不需要声明版本了，好处是所有版本都控制
-                    在parent中，如果有变更，不需要去各个模块中找
--->
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-starter-web</artifactId>
-                <version>2.3.0.M3</version>
-            </dependency>
-
-            <dependency>
-                <groupId>io.springfox</groupId>
-                <artifactId>springfox-swagger2</artifactId>
-                <version>2.9.2</version>
-            </dependency>
-
-            <dependency>
-                <groupId>io.springfox</groupId>
-                <artifactId>springfox-swagger-ui</artifactId>
-                <version>2.9.2</version>
-            </dependency>
-
-            <dependency>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-starter-aop</artifactId>
-                <version>2.3.0.M4</version>
-            </dependency>
-
-            <dependency>
                 <groupId>mysql</groupId>
                 <artifactId>mysql-connector-java</artifactId>
                 <version>8.0.18</version>
@@ -145,6 +133,7 @@
                 <groupId>org.projectlombok</groupId>
                 <artifactId>lombok</artifactId>
                 <version>1.18.12</version>
+                <scope>provided</scope>
             </dependency>
 
             <dependency>
@@ -163,6 +152,14 @@
 
     </dependencyManagement>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+
     <build>
         <plugins>
             <plugin>
@@ -171,6 +168,11 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.8.1</version>
                 <configuration>
+                    <!--
+                        j8编译器有的功能
+                        编译时会保留用户定义的入参名字，而不是arg0,arg1,arg2这种。
+                     -->
+                    <compilerArgument>-parameters</compilerArgument>
                     <encoding>UTF-8</encoding>
                     <source>11</source>
                     <target>11</target>
@@ -180,21 +182,5 @@
             </plugin>
         </plugins>
     </build>
-
-<!--    配置仓库中央仓库，理解中央仓库和镜像的区别  -->
-    <repositories>
-        <repository>
-            <id>spring-milestones</id>
-            <name>Spring Milestones</name>
-            <url>https://repo.spring.io/milestone</url>
-        </repository>
-    </repositories>
-    <pluginRepositories>
-        <pluginRepository>
-            <id>spring-milestones</id>
-            <name>Spring Milestones</name>
-            <url>https://repo.spring.io/milestone</url>
-        </pluginRepository>
-    </pluginRepositories>
 
 </project>

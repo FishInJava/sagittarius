@@ -11,5 +11,8 @@
 
     <artifactId>sagittarius-entity</artifactId>
 
+    <dependencies>
+
+    </dependencies>
 
 </project>

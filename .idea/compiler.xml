@@ -7,7 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="sagittarius-web" />
+        <module name="sagittarius-quartz" />
         <module name="sagittarius-mq" />
         <module name="sagittarius-entity" />
         <module name="sagittarius-dao" />
@@ -15,7 +15,7 @@
         <module name="sagittarius-rpc" />
         <module name="sagittarius-manager" />
         <module name="sagittarius-service" />
-        <module name="sagittarius-quartz" />
+        <module name="sagittarius-web" />
         <module name="sagittarius-interface" />
         <module name="sagittarius-common" />
       </profile>
