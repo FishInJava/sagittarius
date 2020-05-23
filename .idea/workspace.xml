@@ -20,36 +20,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99184d5e-2743-44d8-b74d-4e41461e3748" name="Default Changelist" comment="spring boot使用maven-springboot插件打包，其他的使用maven-complier插件">
-      <change afterPath="$PROJECT_DIR$/sagittarius-common/src/main/java/com/hobozoo/sagittarius/mq/common/util/CacheUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sagittarius-common/src/main/java/com/hobozoo/sagittarius/mq/common/util/DateUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sagittarius-common/src/main/java/com/hobozoo/sagittarius/mq/common/util/ThreadUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sagittarius-controller/src/main/java/com/hobozoo/sagittarius/mq/configuration/SpringFoxConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sagittarius-mq/src/main/java/com/hobozoo/sagittarius/mq/MqApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sagittarius-mq/src/main/java/com/hobozoo/sagittarius/mq/aop/Retry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sagittarius-mq/src/main/java/com/hobozoo/sagittarius/mq/aop/RetryAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sagittarius-mq/src/main/java/com/hobozoo/sagittarius/mq/consumer/BigBoard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sagittarius-mq/src/main/java/com/hobozoo/sagittarius/mq/consumer/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sagittarius-service/src/main/java/com/hobozoo/sagittarius/mq/service/DemoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sagittarius-service/src/main/java/com/hobozoo/sagittarius/mq/service/lambda/LamdbaDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sagittarius-service/src/main/java/com/hobozoo/sagittarius/mq/service/thread/CompletableFutreTimeOut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sagittarius-service/src/main/java/com/hobozoo/sagittarius/mq/service/thread/CompletableFutureDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sagittarius-common/src/main/java/com/hobozoo/sagittarius/common/util/AnnotationUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sagittarius-common/src/main/java/com/hobozoo/sagittarius/common/util/NotSpringIOCBean.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sagittarius-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sagittarius-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sagittarius-common/src/main/java/com/hobozoo/sagittarius/common/exception/SagittariusException.java" beforeDir="false" afterPath="$PROJECT_DIR$/sagittarius-common/src/main/java/com/hobozoo/sagittarius/mq/common/exception/SagittariusException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sagittarius-common/src/main/java/com/hobozoo/sagittarius/common/util/JsonUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/sagittarius-common/src/main/java/com/hobozoo/sagittarius/mq/common/util/JsonUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sagittarius-controller/src/main/java/com/hobozoo/sagittarius/SagittariusServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/sagittarius-controller/src/main/java/com/hobozoo/sagittarius/mq/SagittariusServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sagittarius-controller/src/main/java/com/hobozoo/sagittarius/aspect/ControllerAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/sagittarius-controller/src/main/java/com/hobozoo/sagittarius/mq/aspect/ControllerAspect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sagittarius-controller/src/main/java/com/hobozoo/sagittarius/configuration/ExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/sagittarius-controller/src/main/java/com/hobozoo/sagittarius/mq/configuration/ExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sagittarius-controller/src/main/java/com/hobozoo/sagittarius/configuration/SpringFoxConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sagittarius-controller/src/main/java/com/hobozoo/sagittarius/controller/DemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sagittarius-controller/src/main/java/com/hobozoo/sagittarius/mq/controller/DemoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sagittarius-dao/src/main/java/com/hobozoo/sagittarius/dao/DemoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/sagittarius-dao/src/main/java/com/hobozoo/sagittarius/mq/dao/DemoDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sagittarius-dao/src/main/java/com/hobozoo/sagittarius/dao/mapper/DemoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/sagittarius-dao/src/main/java/com/hobozoo/sagittarius/mq/dao/mapper/DemoMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sagittarius-entity/src/main/java/com/hobozoo/sagittarius/entity/demo/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/sagittarius-entity/src/main/java/com/hobozoo/sagittarius/mq/entity/demo/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sagittarius-entity/src/main/java/com/hobozoo/sagittarius/entity/demo/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/sagittarius-entity/src/main/java/com/hobozoo/sagittarius/mq/entity/demo/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sagittarius-common/src/main/java/com/hobozoo/sagittarius/mq/common/exception/SagittariusException.java" beforeDir="false" afterPath="$PROJECT_DIR$/sagittarius-common/src/main/java/com/hobozoo/sagittarius/common/exception/SagittariusException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sagittarius-common/src/main/java/com/hobozoo/sagittarius/mq/common/util/CacheUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/sagittarius-common/src/main/java/com/hobozoo/sagittarius/common/util/CacheUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sagittarius-common/src/main/java/com/hobozoo/sagittarius/mq/common/util/DateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/sagittarius-common/src/main/java/com/hobozoo/sagittarius/common/util/DateUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sagittarius-common/src/main/java/com/hobozoo/sagittarius/mq/common/util/JsonUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/sagittarius-common/src/main/java/com/hobozoo/sagittarius/common/util/JsonUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sagittarius-common/src/main/java/com/hobozoo/sagittarius/mq/common/util/ThreadUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/sagittarius-common/src/main/java/com/hobozoo/sagittarius/common/util/ThreadUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sagittarius-controller/src/main/java/com/hobozoo/sagittarius/mq/SagittariusServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/sagittarius-controller/src/main/java/com/hobozoo/sagittarius/common/mq/SagittariusServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sagittarius-controller/src/main/java/com/hobozoo/sagittarius/mq/aspect/ControllerAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/sagittarius-controller/src/main/java/com/hobozoo/sagittarius/common/mq/aspect/ControllerAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sagittarius-controller/src/main/java/com/hobozoo/sagittarius/mq/configuration/ExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/sagittarius-controller/src/main/java/com/hobozoo/sagittarius/common/mq/configuration/ExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sagittarius-controller/src/main/java/com/hobozoo/sagittarius/mq/configuration/SpringFoxConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/sagittarius-controller/src/main/java/com/hobozoo/sagittarius/common/mq/configuration/SpringFoxConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sagittarius-controller/src/main/java/com/hobozoo/sagittarius/mq/controller/DemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sagittarius-controller/src/main/java/com/hobozoo/sagittarius/common/mq/controller/DemoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sagittarius-dao/src/main/java/com/hobozoo/sagittarius/mq/dao/DemoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/sagittarius-dao/src/main/java/com/hobozoo/sagittarius/common/mq/dao/DemoDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sagittarius-dao/src/main/java/com/hobozoo/sagittarius/mq/dao/mapper/DemoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/sagittarius-dao/src/main/java/com/hobozoo/sagittarius/common/mq/dao/mapper/DemoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sagittarius-entity/src/main/java/com/hobozoo/sagittarius/mq/entity/demo/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/sagittarius-entity/src/main/java/com/hobozoo/sagittarius/common/mq/entity/demo/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sagittarius-entity/src/main/java/com/hobozoo/sagittarius/mq/entity/demo/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/sagittarius-entity/src/main/java/com/hobozoo/sagittarius/common/mq/entity/demo/Result.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sagittarius-mq/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sagittarius-mq/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sagittarius-mq/src/main/java/com/hobozoo/sagittarius/mq/MqApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/sagittarius-mq/src/main/java/com/hobozoo/sagittarius/common/mq/MqApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sagittarius-mq/src/main/java/com/hobozoo/sagittarius/mq/aop/Retry.java" beforeDir="false" afterPath="$PROJECT_DIR$/sagittarius-mq/src/main/java/com/hobozoo/sagittarius/common/mq/aop/Retry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sagittarius-mq/src/main/java/com/hobozoo/sagittarius/mq/aop/RetryAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/sagittarius-mq/src/main/java/com/hobozoo/sagittarius/common/mq/aop/RetryAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sagittarius-mq/src/main/java/com/hobozoo/sagittarius/mq/consumer/BigBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/sagittarius-mq/src/main/java/com/hobozoo/sagittarius/common/mq/consumer/BigBoard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sagittarius-mq/src/main/java/com/hobozoo/sagittarius/mq/consumer/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/sagittarius-mq/src/main/java/com/hobozoo/sagittarius/common/mq/consumer/Consumer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sagittarius-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sagittarius-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sagittarius-service/src/main/java/com/hobozoo/sagittarius/mq/service/DemoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sagittarius-service/src/main/java/com/hobozoo/sagittarius/common/mq/service/DemoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sagittarius-service/src/main/java/com/hobozoo/sagittarius/mq/service/lambda/LamdbaDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/sagittarius-service/src/main/java/com/hobozoo/sagittarius/common/mq/service/lambda/LamdbaDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sagittarius-service/src/main/java/com/hobozoo/sagittarius/mq/service/thread/CompletableFutreTimeOut.java" beforeDir="false" afterPath="$PROJECT_DIR$/sagittarius-service/src/main/java/com/hobozoo/sagittarius/common/mq/service/thread/CompletableFutreTimeOut.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sagittarius-service/src/main/java/com/hobozoo/sagittarius/mq/service/thread/CompletableFutureDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/sagittarius-service/src/main/java/com/hobozoo/sagittarius/common/mq/service/thread/CompletableFutureDemo.java" afterDir="false" />
     </list>
     <list id="270975b3-9915-4370-9b80-465af026c48b" name="ignore" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
@@ -84,8 +84,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
+        <option value="AnnotationType" />
       </list>
     </option>
   </component>
@@ -268,7 +269,7 @@
       <workItem from="1588317871372" duration="1214000" />
       <workItem from="1588384304348" duration="36642000" />
       <workItem from="1589378526885" duration="2230000" />
-      <workItem from="1590146026044" duration="5005000" />
+      <workItem from="1590146026044" duration="8331000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1585968077499</created>
@@ -333,7 +334,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587803897745</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="spring boot使用maven-springboot插件打包，其他的使用maven-complier插件">
+      <created>1590151467875</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1590151467875</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -479,28 +487,29 @@
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="471" y="249" key="VCS.EditChangelistDialog/0.0.1280.760@0.0.1280.760" timestamp="1587803808726" />
-    <state x="283" y="148" key="Vcs.Push.Dialog.v2" timestamp="1587803900099">
+    <state x="283" y="148" key="Vcs.Push.Dialog.v2" timestamp="1590151469782">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="283" y="148" key="Vcs.Push.Dialog.v2/0.0.1280.760@0.0.1280.760" timestamp="1587803900099" />
+    <state x="283" y="148" key="Vcs.Push.Dialog.v2/0.0.1280.760@0.0.1280.760" timestamp="1590151469782" />
     <state x="324" y="170" key="Vcs.Push.Dialog.v2/0.0.1463.874@0.0.1463.874" timestamp="1587399945624" />
-    <state x="527" y="354" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587399899488">
-      <screen x="0" y="0" width="1463" height="874" />
-    </state>
-    <state x="527" y="354" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1463.874@0.0.1463.874" timestamp="1587399899488" />
-    <state x="260" y="148" width="1020" height="536" key="find.popup" timestamp="1589626570062">
+    <state x="461" y="308" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590151404951">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="260" y="148" width="1020" height="536" key="find.popup/0.0.1280.760@0.0.1280.760" timestamp="1589626570062" />
+    <state x="461" y="308" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.760@0.0.1280.760" timestamp="1590151404951" />
+    <state x="527" y="354" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1463.874@0.0.1463.874" timestamp="1587399899488" />
+    <state x="90" y="151" width="1020" height="536" key="find.popup" timestamp="1590199699478">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="90" y="151" width="1020" height="536" key="find.popup/0.0.1280.760@0.0.1280.760" timestamp="1590199699478" />
     <state x="410" y="170" width="642" height="534" key="find.popup/0.0.1463.874@0.0.1463.874" timestamp="1587398346133" />
     <state x="203" y="185" key="new project wizard" timestamp="1587314651027">
       <screen x="0" y="0" width="1463" height="874" />
     </state>
     <state x="203" y="185" key="new project wizard/0.0.1463.874@0.0.1463.874" timestamp="1587314651027" />
-    <state x="356" y="189" width="672" height="589" key="run.anything.popup" timestamp="1588832775640">
+    <state x="358" y="191" width="672" height="589" key="run.anything.popup" timestamp="1590199873655">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="356" y="189" width="672" height="589" key="run.anything.popup/0.0.1280.760@0.0.1280.760" timestamp="1588832775640" />
+    <state x="358" y="191" width="672" height="589" key="run.anything.popup/0.0.1280.760@0.0.1280.760" timestamp="1590199873655" />
     <state x="389" y="199" width="672" height="677" key="run.anything.popup/0.0.1463.874@0.0.1463.874" timestamp="1587701321089" />
     <state x="350" y="165" width="672" height="590" key="search.everywhere.popup" timestamp="1589195379062">
       <screen x="0" y="0" width="1280" height="760" />
@@ -516,22 +525,22 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/sagittarius-controller/src/main/java/com/hobozoo/sagittarius/mq/controller/DemoController.java</url>
+          <url>file://$PROJECT_DIR$/sagittarius-controller/src/main/java/com/hobozoo/sagittarius/common/mq/controller/DemoController.java</url>
           <line>59</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/sagittarius-controller/src/main/java/com/hobozoo/sagittarius/mq/controller/DemoController.java</url>
+          <url>file://$PROJECT_DIR$/sagittarius-controller/src/main/java/com/hobozoo/sagittarius/common/mq/controller/DemoController.java</url>
           <line>39</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/sagittarius-common/src/main/java/com/hobozoo/sagittarius/mq/common/util/DateUtil.java</url>
+          <url>file://$PROJECT_DIR$/sagittarius-common/src/main/java/com/hobozoo/sagittarius/common/util/DateUtil.java</url>
           <line>30</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/sagittarius-common/src/main/java/com/hobozoo/sagittarius/mq/common/util/ThreadUtil.java</url>
+          <url>file://$PROJECT_DIR$/sagittarius-common/src/main/java/com/hobozoo/sagittarius/common/util/ThreadUtil.java</url>
           <line>92</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>

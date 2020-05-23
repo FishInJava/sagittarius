@@ -17,6 +17,7 @@ aop：日志，重试次数
     <artifactId>sagittarius-mq</artifactId>
     <dependencies>
 
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
